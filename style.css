@@ -1,0 +1,136 @@
+/* ===== FONT & DASAR ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff9fa;
+  color: #4a148c;
+  padding-top: 80px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #ffe6eb !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  color: #c2185b !important;
+  font-weight: 600;
+}
+
+.navbar .btn-outline-primary {
+  border-color: #c2185b;
+  color: #c2185b;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-outline-primary:hover {
+  background-color: #c2185b;
+  color: #fff;
+}
+
+/* ===== PRODUK SECTION ===== */
+main {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #ad1457;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 3px solid #f8bbd0;
+}
+
+.card-title {
+  color: #ad1457;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #6a1b9a;
+}
+
+.btn-primary {
+  background-color: #c2185b;
+  border-color: #c2185b;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ad1457;
+  border-color: #ad1457;
+}
+
+/* ===== OFFCANVAS (KERANJANG) ===== */
+.offcanvas {
+  background-color: #fff8fa;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #f8bbd0;
+}
+
+.offcanvas-body {
+  color: #4a148c;
+}
+
+.btn-outline-danger {
+  border-radius: 8px;
+}
+
+.btn-outline-danger:hover {
+  background-color: #f48fb1;
+  border-color: #f48fb1;
+  color: white;
+}
+
+/* ===== CHECKOUT BUTTON ===== */
+#checkoutBtn {
+  background-color: #c2185b;
+  border-color: #c2185b;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+#checkoutBtn:hover {
+  background-color: #ad1457;
+}
+
+/* ===== SCROLLBAR (optional cantik) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f8bbd0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f48fb1;
+}
